@@ -1,0 +1,792 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Super dev portfolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    
+    <script src="js/jquery-2.1.3.min.js"></script>
+     <script src="js/modernizr.js"></script>
+     <script src="js/pace.min.js"></script>
+     <style>
+        .body {
+            font-size: 17px;
+        }
+        .width_100 {
+            width: 100%;
+        }
+        .max-width-900px {
+            max-width: '900px';
+        }
+        .height-120px {
+            height: 120px;
+        }
+        .text-cener {
+            text-align: center;
+        }
+        .width_90 {
+            width: 90%;
+        }
+
+        .width_80 {
+            width: 80%;
+        }
+
+        .width_75 {
+            width: 75%;
+        }
+        .footer {
+            padding-bottom: 25px;
+        }
+
+        .footera {
+            width: 38px; 
+            height: 38px;
+        } 
+
+        .disflex {
+            display: flex;
+        }
+        .ml50 {
+            margin-left: 50px;
+        }
+        .closeright {
+           padding-left: 98%;
+        }
+        .red-square-button {
+            background-color: red; /* Red background color */
+            color: white; /* Text color */
+            border: none; /* No border */
+            padding: 10px 20px; /* Adjust padding as needed for medium size */
+            font-size: 16px; /* Adjust font size */
+            font-weight: bold; /* Bold font */
+            cursor: pointer; /* Pointer cursor on hover */
+            border-radius: 0; /* Square shape */
+            text-align: center; /* Center text */
+            display: inline-block; /* Display as inline-block for proper sizing */
+            text-decoration: none; /* Remove default link underline */
+        }
+
+        .red-square-button:hover {
+            background-color: darkred; /* Darker red on hover */
+        }
+     </style>
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid nav-bar p-0">
+        <div class="container-lg p-0">
+            <nav class="navbar navbar-expand-lg bg-secondary navbar-dark">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="m-0 text-white display-4"><span class="text-primary">F</span>ull<span class="text-primary">stack</span>dev</h1>
+                </a>
+                <!-- <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button> -->
+                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                    <div class="navbar-nav ml-auto py-0">
+                        <a href="index.html" class="nav-item nav-link active">Home</a>
+                        <a href="#about" class="nav-item nav-link ">About</a>
+                        <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Carousel Start -->
+    <div class="container-fluid p-0 mb-5">
+        <div id="header-carousel" class="carousel slide carousel-fade" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#header-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#header-carousel" data-slide-to="1"></li>
+                <li data-target="#header-carousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="img-fluid width_100" src="img/carousel-1.jpg" alt="Image" >
+                    <div class="carousel-caption d-flex align-items-center justify-content-center">
+                        <div class="p-5" >
+                            <h5 class="text-white text-uppercase mb-md-3">Reliable Dev always keep credit</h5>
+                            <h2 class="display-3 text-white mb-md-4">"Promiss is more important than any" this is my motto</h2>
+                            <!-- <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="img-fluid width_100" src="img/carousel-2.jpg" alt="Image" >
+                    <div class="carousel-caption d-flex align-items-center justify-content-center">
+                        <div class="p-5 width_100 max-width-900px" >
+                            <h5 class="text-white text-uppercase mb-md-3">Reliable Dev</h5>
+                            <h2 class="display-3 text-white mb-md-4">With rich Expereince</h2>
+                            <!-- <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn More</a> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img class="img-fluid width_100" src="img/carousel-3.jpg" alt="Image" >
+                    <div class="carousel-caption d-flex align-items-center justify-content-center">
+                        <div class="p-5 width_100 max-width-900px">
+                            <h5 class="text-white text-uppercase mb-md-3">With unusual idea</h5>
+                            <h2 class="display-3 text-white mb-md-4">With unique idea about project</h1>
+                            <!-- <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold mt-2">Learn More</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Carousel End -->
+
+  <!--  -->
+        <!-- About Start -->
+        <div class="container-fluid py-5" id="about">
+            <div class="container">
+                <div class="row align-items-center pb-1">
+                    <div class="col-lg-5">
+                        <img class="img-thumbnail p-3" src="img/about.jpg" alt="">
+                    </div>
+                    <div class="col-lg-7 mt-5 mt-lg-0">
+                        <div class="bg-primary text-white text-uppercase font-weight-bold px-1">Who am I</div>
+                        <h1 class="mt-2 mb-4">Reliable Full Stack developer with wonderful experience</h1>
+                        <br/><br/>
+                        <p class="mb-4">Detailed and Reliable Senior Full Stack developer with self-confidence and perfect over 9 years of web developing
+                            experience.Developed many gorgeous websites for various domains that many users always love. Also, have experience
+                            in rich project management and have supervised many senior Full Stack developers until today. Excell in React.js and
+                            Node.js especially and developed many web projects using these. Skilled in optimizing applications for maximum speed
+                            and scalability, implementing security and data protection solutions, and collaborating with cross-functional teams to
+                            drive revenue growth and customer engagement. Unusual web developer with a unique idea about the project. A
+                            tomorrow-oriented web developer who is always oriented tomorrow, not today, and a perfect team player who always
+                            adapts to any team culture. Am always consider promises to be more important than any benefit and that is also my
+                            motto in my life.</p>
+                        <!-- <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold">Read More</a> -->
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <div class="d-flex align-items-center border mb-4 mb-lg-0 p-4 height-120px" >
+                            <i class="fa fa-2x fa-map-marker-alt text-primary mr-3"></i>
+                            <div class="d-flex flex-column">
+                                <h5 class="font-weight-bold">Where an I</h5>
+                                <p class="m-0"><Address>Santa Clara, CA</Address></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex align-items-center border mb-4 mb-lg-0 p-4 height-120px" >
+                            <i class="fa fa-2x fa-envelope-open text-primary mr-3"></i>
+                            <div class="d-flex flex-column">
+                                <h5 class="font-weight-bold">Email Us</h5>
+                                <p class="m-0">jhon20001009@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="d-flex align-items-center border mb-4 mb-lg-0 p-4 height-120px" >
+                            <i class="fas fa-2x fa-phone-alt text-primary mr-3"></i>
+                            <div class="d-flex flex-column">
+                                <h5 class="font-weight-bold">Call Us</h5>
+                                <p class="m-0">+012 345 6789</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+        
+        <!-- Features Start -->
+        <div class="container-fluid pt-5 pb-2" >
+            <div class=".fiture_width_100"><h1 class='text-cener bg-primary'>Why choose Me</div></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mb-5">
+                        <div class="bg-primary text-white text-uppercase font-weight-bold px-1">Experience</div>
+                        <h1 class="mt-2 mb-3">Reliable and self modivated with 9+ years</h1>
+                        <h4 class="font-weight-normal text-muted mb-4">Lorem ut kasd dolores elitr sed est duo ea ipsum justo diam, est erat lorem</h4>
+                        <div class="list-inline mb-4">
+                            <div>
+                                <p class="font-weight-semi-bold mb-2"><i class="fa fa-angle-right text-primary mr-2"></i>Senior Full Stack Engineer</p>
+                                <div class="experience_period">
+                                    <data>09/2022 - Present</data>
+                                    <small>Character</small>
+                                </div>
+                                <ul>
+                                    <li>
+                                        Developed a new platform for market research using React and node, resulting in productivity of 17.6% and
+                                        reduced developing cost by 5.7% and this figure is downsizing at this time.
+                                    </li>
+                                    <li>
+                                        Developed data browsing site using an innovative algorithm and using a new platform from up-to-date
+                                        technologies for over 20000 users.
+                                    </li>
+                                    <li>
+                                        Minimized bugs by 35% using innovative technology, resulting downsize developing costs by 47.5% and this
+                                        technology is on the cutting edge today.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="font-weight-semi-bold mb-2"><i class="fa fa-angle-right text-primary mr-2"></i>Senior Front End Developer</p>
+                                <div class="experience_period">
+                                    <data>09/2022 - Present</data>
+                                    <small>Aptivacorp</small>
+                                </div>
+                                
+                                
+                                <ul>
+                                    <li>
+                                        Supervised a team of 9 developers and designers in Developing a scalable microservices architecture using
+                                        React.js and Node.js, supporting a 35.7% increase in user traffic and a 40% reduction in development cost.
+                                    </li>
+                                    <li>
+                                        Minimized algorithm to up speed and modularity, resulting in increased user traffic by over 35.7%.
+                                    </li>
+                                    <li>
+                                        Designed and developed a very comfortable e-commerce site for 120000 old people and launched in a short time
+                                        without any trouble
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="font-weight-semi-bold mb-2"><i class="fa fa-angle-right text-primary mr-2"></i>Senior Full Stack Developer</p>
+                                <div class="experience_period">
+                                    <data>09/2022 - Present</data>
+                                    <small>VComply Technologies</small>
+                                </div>
+                                
+                                <ul>
+                                    <li>
+                                        Formulated and implemented improvements on cleanup processes and performance, thus minimizing downtime
+                                        from 50.74% to 15.7%.
+                                    </li>
+                                    <li>
+                                        Diagnosed and troubleshot different websites for the company's 17 critical clients by deploying updated
+                                        knowledge of up- to-date technologies and techniques in the industry.
+                                    </li>
+                                    <li>
+                                        Established an interactive and dynamic website for the company in a minimum period and generated a 16.7%
+                                        increase in the company's sales revenue.
+                                    </li>
+                                </ul>
+                            </div>
+                            <div>
+                                <p class="font-weight-semi-bold mb-2"><i class="fa fa-angle-right text-primary mr-2"></i>Front End Intern Developer</p>
+                                <div class="experience_period">
+                                    <data>09/2022 - Present</data>
+                                    <small>InSpatial</small>
+                                </div>
+                                
+                                <ul>
+                                    <li>
+                                        Translated designs and wireframes into high-quality code using HTML, CSS, and JavaScript, thus increasing
+                                        productivity from 52.1% to 78.6%. Ensured the technical feasibility of UI/UX designs. Preventing over 3,000
+                                        wasted time on pointless designs.
+                                    </li>
+                                    <li>
+                                        Engaged in company progress by providing suggestions to leaders over 7 times a year about the future
+                                        development of new features.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- <a href="" class="btn btn-primary py-md-2 px-md-4 font-weight-semi-bold">Learn More</a> -->
+                    </div>
+                    <div class="col-lg-6 mb-5">
+                        <div class="row">
+                            <div class="col-sm-6 pb-1">
+                                <div class="d-flex flex-column align-items-center border px-4 mb-4">
+                                    <h2 class="display-3 text-primary mb-3" data-toggle="counter-up">9</h2>
+                                    <h5 class="font-weight-bold mb-4">Years Expereince</h5>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 pb-1">
+                                <div class="d-flex flex-column align-items-center border px-4 mb-4">
+                                    <h2 class="display-3 text-primary mb-3" data-toggle="counter-up">17</h2>
+                                    <h5 class="font-weight-bold mb-4">SKilled Experts</h5>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 pb-1">
+                                <div class="d-flex flex-column align-items-center border px-4 mb-4">
+                                    <h2 class="display-3 text-primary mb-3" data-toggle="counter-up">1050</h2>
+                                    <h5 class="font-weight-bold mb-4">Happy Clients</h5>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 pb-1">
+                                <div class="d-flex flex-column align-items-center border px-4 mb-4">
+                                    <h2 class="display-3 text-primary mb-3" data-toggle="counter-up">37</h2>
+                                    <h5 class="font-weight-bold mb-4">Complete Projects</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-primary text-white text-uppercase font-weight-bold px-1">Skill set</div>
+                        <h1 class="mt-2 mb-3">Senior Full Stack Developer</h1>
+                        <ul class="skill-bars">
+                            <li class="='progress-container">
+                                <strong>React.js</strong>
+                                <div class="progress-bar fiture_width_100"><span>100%</span></div>
+                            </li>
+                            <li class="='progress-container">
+                                <strong>Node.js</strong>
+                                <div class="progress-bar fiture_width_100" ><span>100%</span></div>
+                            </li>
+                            <li class="='progress-container">
+                                <strong>JavaScript</strong>
+                                <div class="progress-bar fiture_width_100" ><span>100%</span></div>
+                            </li>
+                            <li class="='progress-container">
+                                <strong>Html5</strong>
+                                <div class="progress-bar fiture_width_100" ><span>100%</span></div>
+                            </li>
+                            <li class="='progress-container">
+                                <strong>CSS3</strong>
+                                <div class="progress-bar fiture_width_100" ><span>100%</span></div>
+                            </li>
+                            <li class="='progress-container">
+                                <strong>MongoDB</strong>
+                                <div class="progress-bar fiture_width_100" ><span>100%</span></div>
+                            </li>
+                            <li class="='progress-container">
+                                <strong>RESTfull APIs</strong>
+                                <div class="progress-bar width_90" ><span>90%</span></div>
+                            </li>
+                            <li class="='progress-container">
+                                <strong>UX/UI design</strong>
+                                <div class="progress-bar width_90" ><span>90%</span></div>
+                            </li>
+                            <li class="='progress-container">
+                                <strong>Git</strong>
+                                <div class="progress-bar fiture_width_100" ><span>100%</span></div>
+                            </li>
+                            <li class="='progress-container">
+                                <strong>Jest</strong>
+                                <div class="progress-bar width_80" ><span>80%</span></div>
+                            </li>
+                            <li class="='progress-container">
+                                <strong>Enzyme</strong>
+                                <div class="progress-bar width_80" ><span>80%</span></div>
+                            </li>
+                            <li class="='progress-container">
+                                <strong>Docker</strong>
+                                <div class="progress-bar width_80" ><span>80%</span></div>
+                            </li>
+                            <li class="='progress-container">
+                                <strong>DevOps</strong>
+                                <div class="progress-bar width_75"><span>75%</span></div>
+                            </li>
+                            <li class="='progress-container">
+                                <strong>Security and data protection</strong>
+                                <div class="progress-bar width_80" ><span>80%</span></div>
+                            </li>
+                            <li class="='progress-container">
+                                <strong>Performance optimization</strong>
+                                <div class="progress-bar width_80" ><span>80%</span></div>
+                            </li>
+                         </ul> <!-- /skill-bars -->
+                       
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <h1  class="bg-primary text-cener">Education</h1>
+                <div class="text-cener">
+                    <h2>Bachelor of Science in Computer Science</h2>
+                    <h4>Rochester Institute of Technology, Dubai • Rochester, NY</h4>
+                    <p >05/2017</p>
+                </div>
+            </div>
+        </div>
+     <style>
+            .image-container {
+      position: relative;
+      /* width: 300px; Adjust as needed */
+      /* height: 200px; Adjust as needed */
+      overflow: hidden;
+      cursor: pointer;
+    }
+
+    /* Style for the image */
+    .image {
+      width: 700px;
+      height: auto;
+      display: block;
+    }
+
+    /* Overlay container */
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+      color: white;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    /* Show the overlay on hover */
+    .image-container:hover .overlay {
+      opacity: 1;
+    }
+
+    /* Modal overlay */
+    .modal {
+      display: none; /* Hidden by default */
+      position: fixed; /* Stay in place */
+      z-index: 1; /* Sit on top */
+      left: 0;
+      top: 0;
+      width: 100%; /* Full width */
+      height: 100%; /* Full height */
+      overflow: auto; /* Enable scroll if needed */
+      background-color: rgb(0,0,0); /* Fallback color */
+      background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    }
+
+    /* Modal content box */
+    .modal-content {
+      background-color: #fefefe;
+      margin: 15% auto; /* 15% from the top and centered */
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%; /* Could be more or less, depending on screen size */
+    }
+
+    /* Close button */
+    .close {
+      color: #aaa;
+      float: right;
+      font-size: 28px;
+      font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+      color: black;
+      text-decoration: none;
+      cursor: pointer;
+    }
+    .gridcontainer {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+            gap: 10px; /* Adjust as needed */
+        }
+        .griditem {
+            margin-left: 8%;
+            margin-bottom: 5%;
+            /* background-color: lightblue; */
+            /* padding: 20px; */
+            text-align: center;
+        }
+     </style>   
+        <!-- Features End -->
+    <!-- aaaaaaaaaa -->
+    <h1  id ='portfolio' class="bg-primary text-cener">Here is my work</h1>
+    <br>
+     <div class="gridcontainer"> 
+            <div class="image-container griditem ">
+             <img src="img/portfolio/1.PNG"  alt="Sample Image" class="image" >
+             <div class="overlay" >
+               <div class="overlay-text modalImg" number=0>More Info</div>
+             </div>
+           </div>
+            <div class="image-container griditem ">
+             <img src="img/portfolio/2.PNG" alt="Sample Image" class="image" >
+             <div class="overlay">
+               <div class="overlay-text modalImg" number="1">More Info</div>
+             </div>
+           </div>
+            <div class="image-container griditem ">
+             <img src="img/portfolio/3.PNG" alt="Sample Image" class="image" >
+             <div class="overlay">
+               <div class="overlay-text modalImg" number="2">More Info</div>
+             </div>
+           </div>
+            <div class="image-container griditem ">
+             <img src="img/portfolio/4.PNG" alt="Sample Image" class="image" >
+             <div class="overlay">
+               <div class="overlay-text modalImg" number="3">More Info</div>
+             </div>
+           </div>
+            <div class="image-container griditem ">
+             <img src="img/portfolio/5.PNG" alt="Sample Image" class="image" >
+             <div class="overlay">
+               <div class="overlay-text modalImg" number="4">More Info</div>
+             </div>
+           </div>
+            <div class="image-container griditem ">
+             <img src="img/portfolio/6.PNG" alt="Sample Image" class="image" >
+             <div class="overlay">
+               <div class="overlay-text modalImg" number="5">More Info</div>
+             </div>
+           </div>
+   
+     </div>
+    
+      <!-- Modal structure -->
+      <div  class="modal" >
+        <div class="modal-content">
+          <span class="close closeright">&times;</span>
+          <h2 class="text-cener">Fantactic game website</h2>
+          <div class="disflex">
+                <img src="img/portfolio/1.PNG"  alt="Sample Image" class="image " >
+                <div class="ml50">
+                    <ul>
+                        <li>
+                            <h4>
+                                Fantastic game website using  up-to-date technologies.
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                Already made many end-users  feel attractive about this site.
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                Try it in your free time for feeling new experience you never before.
+                            </h4>
+                        </li>
+                    </ul>
+                </div>
+                </div>
+            <button class="red-square-button">Close</button>
+        </div>
+      </div>
+      <div  class="modal">
+        <div class="modal-content">
+          <span class="close closeright">&times;</span>
+          <h2 class="text-cener">Gorgeous e-commerse website</h2>
+          <div class="disflex">
+              <img src="img/portfolio/2.PNG"  alt="Sample Image" class="image " >
+              <div class="ml50">
+                <ul>
+                    <li>
+                        <h4>
+                            This site make many users happy.
+                        </h4>
+                    </li>
+                    <li>
+                        <h4>
+                            Minimized algorithm to up speed and modularity, resulting in increased user traffic by over 35.7%.
+                        </h4>
+                    </li>
+                    <li>
+                        <h4>
+                            Designed  comfortable e-commerce site  and launched in a short time without any trouble.
+                        </h4>
+                    </li>
+                </ul>
+            </div>
+          </div>
+          <button class="red-square-button">Close</button>
+        </div>
+      </div>
+      
+      <div class="modal">
+        <div class="modal-content">
+          <span class="close closeright">&times;</span>
+          <h2 class="text-cener">Good Societysite</h2>
+          <div class="disflex">
+              <img src="img/portfolio/3.PNG"  alt="Sample Image" class="image " >
+              <div class="ml50">
+                <ul>
+                    <li>
+                        <h4>
+                            if want to be good teem player...
+                        </h4>
+                    </li>
+                    <li>
+                        <h4>
+                            if you want happy family...
+                        </h4>
+                    </li>
+                    <li>
+                        <h4>
+                            Try with our website.
+                        </h4>
+                    </li>
+                </ul>
+            </div>
+          </div>
+          <button class="red-square-button">Close</button>
+        </div>
+      </div>
+      <div  class="modal">
+        <div class="modal-content">
+          <span class="close closeright">&times;</span>
+          <h2 class="text-cener">Website using innovated technologies </h2>
+          <div class="disflex">
+              <img src="img/portfolio/4.PNG"  alt="Sample Image" class="image " >
+              <div class="ml50">
+                <ul>
+                    <li>
+                        <h4>
+                            Annual Conference Orlando. May 2025. Ideas and innovation come alive at our annual flagship technology event. Catch the on-demand sessions 
+                        </h4>
+                    </li>
+                </ul>
+              </div>
+          </div>
+          <button class="red-square-button">Close</button>
+        </div>
+      </div>
+      <div class="modal">
+        <div class="modal-content">
+          <span class="close closeright">&times;</span>
+            <h2 class="text-cener">Unique website using unusual idea</h2>
+            <div class="disflex">
+                <img src="img/portfolio/5.PNG"  alt="Sample Image" class="image " >
+                <div class="ml50">
+                    <ul>
+                        <li>
+                            <h4>
+                                Formulated and implemented improvements on cleanup processes and performance, thus minimizing downtime
+                                from 50.74% to 15.7%.
+                            </h4>
+                        </li>
+                        <li>
+                            <h4>
+                                Developed data browsing site using an innovative algorithm and using a new platform from up-to-date
+                            </h4>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <button class="red-square-button">Close</button>
+        </div>
+      </div>
+      <div class="modal">
+        <div class="modal-content">
+          <span class="close closeright">&times;</span>
+          <h2 class="text-cener">Website developing with React.js and node.js </h2>
+          <div class="disflex">
+              <img src="img/portfolio/6.PNG"  alt="Sample Image" class="image " >
+              <div class="ml50">
+                <ul>
+                    <li>
+                        <h4>
+                            Led team of 17 developers in designing and developing the gorgeous communication page, thus ensuring a user-friendly  interface and efficient data representation for over 120.000 users.
+                        </h4>
+                    </li>
+                    <li>
+                        <h4>
+                            Coordinated with customer service teams to resolve issues swiftly, maintaining a 95% customer satisfaction rate.
+                        </h4>
+                    </li>
+                </ul>
+              </div>
+          </div>
+          <button class="red-square-button">Close</button>
+        </div>
+      </div>
+    <!-- aaaaaaaaaaaa -->
+ 
+    <!-- Footer Start -->
+    <div class="container-fluid bg-secondary text-white mt-5 pt-5 px-sm-3 px-md-5" id="contact"  >
+            
+                <div class="mb-5 text-cener">
+                    <h1 class="font-weight-bold text-primary mb-4">Get In Touch</h1>
+                    <p><i class="fa fa-map-marker-alt text-primary mr-2"></i>123 Street, New York, USA</p>
+                    <p><i class="fa fa-phone-alt text-primary mr-2"></i>+012 345 67890</p>
+                    <p><i class="fa fa-envelope text-primary mr-2"></i>jhon20001009@gmail.com</p>
+                    </div>
+                        <div class=" justify-content-start mt-4 text-cener" >
+                            <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0 footera" ><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0 footera" ><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0 footera" ><i class="fab fa-linkedin-in"></i></a>
+                            <a class="btn btn-outline-primary rounded-circle text-center mr-2 px-0 footera" ><i class="fab fa-instagram"></i></a>
+                        </div >
+           
+    </div>
+  
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a  class="btn btn-lg btn-primary back-to-top"><i class="fa fa-angle-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    
+
+    <script>
+        $('document').ready(function() {
+            $('.modalImg').click(function() {
+                var number = $(this).attr('number');
+                $('.modal')[Number(number)].style.display = 'block';
+            })
+
+            $('.close').click(function() {
+                console.log($(this).parents('.modal'));
+                $(this).parents('.modal')[0].style.display = 'none';
+            })
+
+            $('.red-square-button').click(function() {
+                console.log($(this).parents('.modal'));
+                $(this).parents('.modal')[0].style.display = 'none';
+            })
+
+        })
+    </script>
+</body>
+
+
+
+</html>
